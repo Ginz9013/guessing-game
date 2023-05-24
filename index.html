@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body class="d-flex justify-content-center align-items-center bg-secondary">
+    <div class="wrap bg-light p-4 d-flex flex-column justify-content-center align-items-center">
+
+        <h1 id="title" class="fs-4">猜一個數字</h1>
+
+        <div id="scope" class="scope d-flex align-items-center justify-content-center mb-3">
+            <h2 id="minNum" class="fs-1 fw-bold">1</h2>
+            <p class="fs-1 mx-3">-</p>
+            <h2 id="maxNum" class="fs-1 fw-bold">100</h2>
+        </div>
+
+        <input id="guess" type="number" class="mb-4">
+
+        <button id="check" class="btn btn-secondary px-4">回答</button>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
